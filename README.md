@@ -1,5 +1,4 @@
-# Project_4
-Machine Learning - Credit Card Fraud Detection
+# Project 4: Credit Card Fraud Detection - Machine Learning
 
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud 
 
