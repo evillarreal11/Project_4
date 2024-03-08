@@ -1,5 +1,7 @@
 # Project 4: Credit Card Fraud Detection - Machine Learning
 
+![image](https://github.com/evillarreal11/Project_4/assets/89103450/56f6bd14-cdbd-4b56-9b12-8366c870e9d4)
+
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud 
 
 **This code utilizes Google Colab. Below are requirements before getting started:**
