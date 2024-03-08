@@ -10,7 +10,7 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 - The files need to be moved into "My Drive" in Google Drive.
 - Once prompted, you will need to allow access to your entire Google Drive for the code to run.
 
-# Scope
+# Overview
 
 The dataset contains transactions made by credit cards in September 2013 by European cardholders.
 
