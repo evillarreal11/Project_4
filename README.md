@@ -8,7 +8,7 @@
 
 - The dataset will need to be downloaded from Kaggle.
 - Spark version 3.4.2 will need to be installed.
-- The files need to be moved into "My Drive" in Google Drive.
+- The files need to be moved into "My Drive" in Google Drive and a folder should be created called "Trained Models"
 - Once prompted, you will need to allow access to your entire Google Drive for the code to run.
 
 # Overview
