@@ -57,3 +57,9 @@ The model utilizes the Random Oversampler, whic is a random selection of example
 
 - Shows high True Positive and True Negative classes, which refers to the Normal and Fraudulent charges being classified correctly.
 - Thus, our model was successful and able to make accurate predictions.
+
+# Widgets
+Using the sample code provided in class, we wanted to create an interactive way to test and experiment with the predictive capabilities of our model. The first widget shown in “Project4_Widgets” calls the model created with the rebalanced data, and the second uses a pared down model that only includes features with a correlation of greater than .15 in magnitude
+- The user can slide the scale for each variable in the model, and the number in the square brackets will indicate a 0 or 1 for normal or fraudulent transactions. 
+- While both widgets will predict the class of the transaction, the pared down model is more user friendly and allows someone to focus in on the variables that have the greatest impact in relation to credit card fraud.
+- The features included, although anonymized through PCA, could be geographic information, transaction type, or merchant type, among other things. 
