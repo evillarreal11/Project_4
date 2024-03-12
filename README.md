@@ -20,3 +20,40 @@ This dataset presents transactions that occurred in two days, where we have 492 
 It contains only numerical input variables which are the result of a PCA transformation. Unfortunately, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features V1, V2, … V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
 
 Given the class imbalance ratio, we recommend measuring the accuracy using the Area Under the Precision-Recall Curve (AUPRC). Confusion matrix accuracy is not meaningful for unbalanced classification.
+
+# Machine Learning
+
+**Original data:**
+
+*0: Normal* 
+
+- High percentage of correct predictions
+- High recall of positive cases
+- High percentage of positive predictions that were correct
+
+*1: Fraudulent*
+
+- Somewhat low percentage of correct predictions.
+- Low recall of positive cases
+- Low percentage of positive predictions that were correct.
+
+*Confusion matrix*
+
+- Highly unbalanced dataset
+- Shows that the Normal or 0 class yielded a “true positive” result with the predicted and actual data, the Fraudulent or 1 class did not.
+
+**Rebalanced data:**
+
+The model utilizes the Random Oversampler, whic is a random selection of examples from the minority class, with replacement, and adds them to the training dataset.
+
+*0: Normal and 1: Fraudulent (overall)*
+
+- High percentage of correct predictions
+- High recall of positive cases
+- High percentage of positive predictions that were correct.
+- The Normal class slightly decreased in its prediction ability after being rebalanced.
+
+*Confusion Matrix*
+
+- Shows high True Positive and True Negative classes, which refers to the Normal and Fraudulent charges being classified correctly.
+- Thus, our model was successful and able to make accurate predictions.
