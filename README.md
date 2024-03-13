@@ -21,6 +21,17 @@ It contains only numerical input variables which are the result of a PCA transfo
 
 Given the class imbalance ratio, we recommend measuring the accuracy using the Area Under the Precision-Recall Curve (AUPRC). Confusion matrix accuracy is not meaningful for unbalanced classification.
 
+# Data Analysis
+
+Through the initial deepdive of the dataset, we were able to discover a few things:
+
+- The average Fraudulent Charge was $123.87
+- The average True Charge was $88.41
+- 0.606 seconds between every transaction
+- 0.607 seconds between every true transaction
+- 351 seconds between every fraudulent transaction
+
+
 # Machine Learning
 
 **Original data:**
