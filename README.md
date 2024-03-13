@@ -32,7 +32,7 @@ Through the initial deepdive of the dataset, we were able to discover a few thin
 - 351 seconds between every fraudulent transaction
 
 
-# Machine Learning
+# Machine Learning - Logistic Regression Model
 
 **Original data:**
 
